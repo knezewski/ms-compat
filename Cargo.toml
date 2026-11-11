@@ -5,6 +5,7 @@ edition = "2024"
 description = "Parse and format durations with JavaScript ms-compatible behavior"
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/knezewski/ms-compat"
 keywords = ["duration", "milliseconds", "time", "parse", "format"]
 categories = ["date-and-time", "parsing", "value-formatting"]
 include = ["/src/**", "/tests/**", "/Cargo.toml", "/Cargo.lock", "/README.md", "/LICENSE"]
