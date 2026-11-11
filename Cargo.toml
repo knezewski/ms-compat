@@ -1,0 +1,14 @@
+[package]
+name = "ms-compat"
+version = "0.1.0"
+edition = "2024"
+description = "Parse and format durations with JavaScript ms-compatible behavior"
+license = "MIT"
+readme = "README.md"
+keywords = ["duration", "milliseconds", "time", "parse", "format"]
+categories = ["date-and-time", "parsing", "value-formatting"]
+include = ["/src/**", "/tests/**", "/Cargo.toml", "/Cargo.lock", "/README.md", "/LICENSE"]
+
+[dependencies]
+regex = "1.13.1"
+ryu-js = "1.0"
