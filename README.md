@@ -8,15 +8,13 @@ durations as `"2h"` or `"2 hours"`. Errors are returned as `Result` values.
 
 ## Installation
 
-This project has not been published yet. For now, use a local path dependency:
+Add the package from [crates.io](https://crates.io/crates/ms-compat) to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-ms-compat = { path = "../ms-rs" }
+ms-compat = "0.1"
 ```
 
-The path must point to this repository (the local directory is still named
-`ms-rs`). After version 0.1.0 is published, use `ms-compat = "0.1"` instead.
 This is a Rust library; JavaScript bindings and an npm package are not included.
 
 ## Usage
